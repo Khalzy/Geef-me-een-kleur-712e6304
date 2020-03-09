@@ -1,5 +1,4 @@
-function change() {
-  var test = document.querySelector("body");
-  test.classList.add("mystyle");
-  test.style.backgroundColor = "red";
+function updateAll() {
+  var colorPicker = document.getElementById("myColor").value;
+  document.getElementById("color").style.backgroundColor = colorPicker;
 }
